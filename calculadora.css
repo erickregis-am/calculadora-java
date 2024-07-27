@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+body{
+    background:linear-gradient(rgb(0, 147, 147), white);
+}
+
+header{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: Roboto;
+}
+
+section{
+    background-color: rgb(51, 101, 84);
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 800px;
+    border-radius: 10px;
+}
+
+.visor_calc{
+    display: absolute;
+    position:absolute;
+    background-color: rgb(255, 255, 255);
+    -webkit-text-fill-color: gray;
+    width: 440px;
+    height: 40px;
+    padding: 50px;
+    margin-top: 80px;
+    margin-left: 30px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: Roboto;
+    text-align: end;
+}
+
+#numAndopBox{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+button{
+    width: 132px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(147, 147, 147);
+}
+
+.operatorsButtons{
+    background-color: rgb(1, 56, 38);
+    color:rgb(235, 235, 235)
+}
+
+.operatorsButtons:hover{
+    background-color: rgb(1, 93, 62);
+}
+
+#seta{
+    font-size: 60px;
+}
+ 
+.equal{
+    margin-top: -50px;
+    position: absolute;
+    width: 268px;
+}
+
+footer{
+    margin-top: 20px;
+    margin-left: 35px;
+    color: white;
+    font-size: 20px;
+}
